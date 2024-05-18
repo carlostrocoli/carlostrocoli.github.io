@@ -1,0 +1,86 @@
+
+h1 {    
+    color: blue;
+    background-color: rgb(2, 5, 185);
+}
+
+/*selector de id */
+#principal {
+    color: yellow;
+    background-color: blue;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*selector de etiquetas */
+
+p {
+    color: rgb(0, 0, 0)
+}
+
+main {
+    background-color: rgb(143, 142, 142);
+}
+
+#tipos-estilos {
+    color: antiquewhite;
+}
+
+ol {
+    list-style-type: lower-greek;
+}
+
+#merequetebngue {
+    list-style: upper-latin;
+    background-color: blue;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: inherit;
+    
+}
+
+footer{
+    text-align: center;
+}
+
+table{
+    background-color: bisque;
+    color: rgb(143, 12, 12);
+    text-align: center;
+        
+    
+}
+
+thead{
+    background-color: bisque;
+    color: brown;
+}
+
+.recreo{
+   color: red;
+   background-color: antiquewhite;
+}   
+
+#buscador{
+    text-align: right;
+}
+
+input{
+    background-color: bisque;
+    color: brown;
+}
+
+button{
+    background-color: goldenrod;
+    text-shadow: ;
+}
+
+#consulta{
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+}

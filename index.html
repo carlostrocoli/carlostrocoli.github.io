@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2. Practica de hojas e estilos</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/images.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jersey+15+Charted&family=Lobster&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <img src="images/title.png" 300 alt="">
+        <hr>
+        <nav>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="consulta">Hazme una consulta</a>
+            <a id="contacto" href="tel:+5804245539397">llama a mi telefono</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="buscador">
+            <br>
+            <form target="_blank" action="http://google.com/search">
+                <label for="buscar">Buscar en google</label>
+                <input type="text" size="50" name="q" placeholder="buscar en Google">
+                <button>
+                    Buscar
+                </button>
+            </form>
+        </section>
+        <section>
+            <h1 style="color: aliceblue;">Practicando estilos</h1>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates possimus aut nihil. Architecto quasi
+                consectetur id reprehenderit mollitia! Ipsam quae, porro aliquid aut aliquam dolor? Velit cumque veniam
+                ipsum
+                ducimus!
+        </section>
+        <section>
+            <h1>Videos</h1>
+            <article><audio src="audio/tono-mensaje-3-.mp3"></audio>
+            </article>
+            <article>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/XdofmoYcJNE?si=kjoVmwsC6WnUfIUZ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </article>
+        </section>
+        </p>
+        <section>
+            <h1 id="principal">Estilos globales</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae qui, aspernatur perferendis itaque
+                ipsam
+                dolor
+                illum quaerat quod neque eligendi earum vero accusantium nobis nihil laudantium suscipit voluptas
+                doloremque?
+                Magnam.
+            <ol id="tipos-estilos">
+                <li>inline</li>
+                <li>globales en la pagina</li>
+                <li>en archivos externos CSS</li>
+                <ol>
+                    <li>frameworks</li>
+                    <li>sitios externos</li>
+                    <ul id="merequetebngue">
+                        <li>framerokssss</li>
+                        <li>sin frameworkos</li>
+                    </ul>
+                </ol>
+            </ol>
+            <hr>
+        </section>
+        <section>
+            <h2>Horario de clases</h2>
+            <!--encabezado de la tabala-->
+            <table border="1" align="center" width="500px">
+                <thead>
+                    <!--primera fila del encabezado -->
+                    <tr>
+                        <th>Hora</th>
+                        <th>lunes</th>
+                        <th>martes</th>
+                        <th>miercoles</th>
+                        <th>jueves</th>
+                        <th>viernes</th>
+                        <th>Sabado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>7:15-9:30</td>
+                        <td>Educ. fisica</td>
+                        <td>Matematica</td>
+                        <td>Fisica</td>
+                        <td>Biologia</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>9:30-10:00</td>
+                        <td class="recreo" colspan="6" align="center">Recreo</td>
+                    </tr>
+                    <tr>
+                        <td>10:00-11:00</td>
+                        <td>Biologia</td>
+                        <td>Ingles</td>
+                        <td>Castellano</td>
+                        <td>Matematicas</td>
+                        <td>Quimica</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>11:30-12:00</td>
+                        <td></td>
+                        <td>Quimica</td>
+                        <td></td>
+                        <td>Biologia</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2:45-4:00</td>
+                        <td></td>
+                        <td></td>
+                        <td>Ingles</td>
+                        <td></td>
+                        <td>Fisica</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>7:15-9:30</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="consulta">
+            <h2>Hazme una consulta</h2>
+            <p>si tienes una consulta, por favor escribeme</p>
+            <form action="">
+                <label for="nombre">nombre</label>
+                <div>
+
+                </div>
+                <input type="text" name="nombre" id="nombre">
+                <div>
+
+                </div>
+                <label for="correo">correo</label>
+                <input type="email" name="correo" id="correo">
+                <div>
+
+                </div>
+                <label for="tipo">tipo de cliente</label>
+                <select class="form-input" name="tipo" id="tipo">
+                    <option value="J">juridico</option>
+                    <option value="N">natural</option>
+                    <option value="G" selected>gubernamental</option>
+                </select>
+                <div>
+
+                </div>
+                <label for="texto">escribe tu consulta</label>
+                <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
+                <button>enviar consulta</button>
+                <input type="reset" value="borrar">
+            </form>
+        </section>  
+    </main>
+
+    <footer>
+
+        <a href="https://www.finalfantasyxiv.com/">Importante</a>|
+        <a href="mailto:carlotrocoli@gmail.com">Escribeme al correo</a>
+
+    </footer>
+
+</body>
+
+</html>
